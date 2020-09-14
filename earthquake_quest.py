@@ -475,7 +475,7 @@ def page_settings_reset_sure():
         page_settings_0()
 def page_settings_information():
     global variant_1, variant_2
-    now_page = Page("settings_information", f"Здесь находится основная техническая информация\nВерсия квеста: {quest_version}\nВерсия программы: {program_version}\nНазвание квеста: \"Необычное землятресение\"\nКоличество страниц в квесте: {quantity_pages}\nПочта для обратной связи: koelibotonibud@gmail.com \nСсылка на GitHub: None")
+    now_page = Page("settings_information", f"Здесь находится основная техническая информация\nВерсия квеста: {quest_version}\nВерсия программы: {program_version}\nНазвание квеста: \"Необычное землятресение\"\nКоличество страниц в квесте: {quantity_pages}\nПочта для обратной связи: koelibotonibud@gmail.com \nСсылка на GitHub: https://github.com/Pavlik-g/unusual_earthquake.git")
     variant_1 = Variant_otveta("[Назад]", "settings_0")
     full_now_page = Full_page(now_page)
     full_now_page.vybor_otveta()
